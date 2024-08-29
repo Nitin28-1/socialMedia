@@ -1,0 +1,24 @@
+.profileimage
+{
+    background-image: url("../public/images/mountain.jpg");
+}
+.thirdprofilebox
+{
+    justify-content: end;
+}
+@media screen and (max-width: 434px) {
+    .firstprofilebox
+    {
+      width: 100vw;
+    }
+    .secondprofilebox
+    {
+      flex-direction: column;
+      gap: 15px;
+    }
+    .thirdprofilebox
+    {
+      justify-content: center;
+      align-items: center;
+    }
+   }

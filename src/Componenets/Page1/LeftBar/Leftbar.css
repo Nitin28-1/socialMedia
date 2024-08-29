@@ -1,0 +1,16 @@
+.leftsidebarr
+{
+    &::-webkit-scrollbar
+    {
+        display: none;
+    }
+  
+}
+
+@media screen and (max-width: 434px) {
+    .leftsidebarr
+    {
+      display: none;
+      background-color: aqua;
+    }
+   }

@@ -1,0 +1,20 @@
+.righsidebar
+{
+  
+
+    display: flex;
+    flex-direction: column;
+    &::-webkit-scrollbar
+    {
+        display: none;
+    }
+  
+}
+
+@media screen and (max-width: 1230px) {
+   .righsidebar
+   {
+     display: none;
+     background-color: aqua;
+   }
+  }

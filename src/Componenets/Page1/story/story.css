@@ -1,0 +1,21 @@
+.topstorydiv
+{
+    &::-webkit-scrollbar
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 434px) {
+    .firstboxx
+    {
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+    }
+    .secondbox
+    {
+
+    }
+  
+   }

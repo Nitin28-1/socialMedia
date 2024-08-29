@@ -1,0 +1,68 @@
+.profileboxnav
+{
+  width: 20%;
+  font-size: 20px;
+
+}
+.searchboxnav
+{
+  width: 30%;
+}
+.searchboxnavinput
+{
+  width: 100%;
+}
+.logomain
+{ 
+
+  font-size: 30px;
+  margin-left: 8px;
+  
+}
+.homebuttons
+{
+  width: 20%;
+}
+.messageboxnav
+{
+  font-size: 20px; 
+}
+@media screen and (max-width: 434px) {
+    .firstbox
+    {
+      visibility: hidden;
+      position: absolute;
+    }
+    .searchboxnav
+    {
+     min-width: 40px;
+    height: 50%;
+
+    }
+    .searchboxnavinput
+    {
+      width: 150%;
+      height: 100%;
+    }
+    .profileboxnav
+   {
+     width: 30%;
+     font-size: 20px;
+          
+   }
+   .logomain
+   { 
+     font-size: 10px;
+     margin-left: 10px;
+    
+    }
+   .homebuttons
+   {
+     width: 20%;
+     font-size: 13px;
+   }
+   .messageboxnav
+   {
+  font-size: 20px; 
+  }
+ }

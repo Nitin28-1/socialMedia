@@ -1,0 +1,14 @@
+.darkmodecss:hover
+{
+    transform: scale(1.2);
+}
+.darkmodecss
+{
+    transition: .3s ease;
+}
+.darkmood
+{
+   --text-color: white;
+   --color-bg: black;
+   --color-card: #111111;
+}
